@@ -7,7 +7,7 @@
 
 ## 👤 Professional Overview
 
-I am a Junior Full-Stack Developer and UX/UI Designer currently completing my Diploma in ICT at CPUT. I specialize in building modern web applications and SaaS user interfaces using React, Vue.js, and Node.js. I am highly proficient in implementing Material Design and Apple Human Interface Guidelines to deliver high-fidelity digital products backed by clean, scalable code.
+I am a Junior Full-Stack Developer and UX/UI Designer currently completing my Diploma in ICT at CPUT. I specialise in building modern web applications and SaaS user interfaces using React, Vue.js, and Node.js. I am highly proficient in implementing Material Design and Apple Human Interface Guidelines to deliver high-fidelity digital products backed by clean, scalable code.
 
 ---
 
@@ -84,7 +84,7 @@ I am a Junior Full-Stack Developer and UX/UI Designer currently completing my Di
 
 ---
 
-## Reflection on Coding My CV in Markdown — STAR Method
+## Reflection on Coding My CV in Markdown using STAR Method
 
 **Situation**
 
@@ -104,7 +104,7 @@ I successfully produced a fully Markdown coded CV that renders cleanly on GitHub
 
 
 
-## Reflection on Mock Interview Experience — STAR Method
+## Reflection on Mock Interview Experience using STAR Method
 
 **Situation**
 
@@ -126,11 +126,11 @@ The mock interview helped me identify my strengths — such as clearly explainin
 
 ##  GitHub Pages
 
-**Live Portfolio:** [bukho127.github.io](https://bukho127.github.io)
+**Live Portfolio:** [Bukho-Mabhula.github.io](https://Bukho-Mabhula.github.io)
 
 ---
 
-## Reflection on Publishing to GitHub Pages — STAR Method
+## Reflection on Publishing to GitHub Pages using STAR Method
 
 **Situation**
 
