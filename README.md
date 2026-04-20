@@ -15,7 +15,7 @@ I am a Junior Full-Stack Developer and UX/UI Designer currently completing my Di
 
 ### Merchandiser
 **Boxer Superstore** | 2023 – 2025
-- Collaborated with store management to optimize visual layouts, ensuring brand standards were met.
+- Collaborated with store management to optimise visual layouts, ensuring brand standards were met.
 
 ### Chipper
 **The Hussar Grill** | 2020 – 2021
