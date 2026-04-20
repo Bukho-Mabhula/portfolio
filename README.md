@@ -92,7 +92,7 @@ As part of my PRP370 Digital Portfolio assessment, I was required to create my C
 
 **Task**
 
-My task was to write a complete, well-structured CV entirely in Markdown covering my personal details, work experience, education, skills, and projects — in a way that was both readable as raw code and visually clean when rendered.
+My task was to write a complete, well-structured CV entirely in Markdown covering my personal details, work experience, education, skills, and projects in a way that was both readable as raw code and visually clean when rendered.
 
 **Action**
 
@@ -120,7 +120,7 @@ I prepared by reviewing common technical and behavioural interview questions for
 
 **Result**
 
-The mock interview helped me identify my strengths such as clearly explaining technical concepts — as well as areas to improve, like reducing filler words and managing nerves. The experience built my confidence in professional communication and gave me a realistic feel for what to expect in real industry interviews.
+The mock interview helped me identify my strengths such as clearly explaining technical concepts as well as areas to improve, like reducing filler words and managing nerves. The experience built my confidence in professional communication and gave me a realistic feel for what to expect in real industry interviews.
 
 ---
 
