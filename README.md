@@ -92,7 +92,7 @@ As part of my PRP370 Digital Portfolio assessment, I was required to create my C
 
 **Task**
 
-My task was to write a complete, well-structured CV entirely in Markdown — covering my personal details, work experience, education, skills, and projects — in a way that was both readable as raw code and visually clean when rendered.
+My task was to write a complete, well-structured CV entirely in Markdown covering my personal details, work experience, education, skills, and projects — in a way that was both readable as raw code and visually clean when rendered.
 
 **Action**
 
@@ -108,7 +108,7 @@ I successfully produced a fully Markdown coded CV that renders cleanly on GitHub
 
 **Situation**
 
-As part of my task , I was required to record a mock interview simulating a real-world job interview using the STAR method for a junior developer role. The video had to be embedded in my digital portfolio as evidence of my professional communication skills.
+As part of my task, I was required to record a mock interview simulating a real-world job interview using the STAR method for a junior developer role. The video had to be embedded in my digital portfolio as evidence of my professional communication skills.
 
 **Task**
 
@@ -120,7 +120,7 @@ I prepared by reviewing common technical and behavioural interview questions for
 
 **Result**
 
-The mock interview helped me identify my strengths — such as clearly explaining technical concepts — as well as areas to improve, like reducing filler words and managing nerves. The experience built my confidence in professional communication and gave me a realistic feel for what to expect in real industry interviews.
+The mock interview helped me identify my strengths such as clearly explaining technical concepts — as well as areas to improve, like reducing filler words and managing nerves. The experience built my confidence in professional communication and gave me a realistic feel for what to expect in real industry interviews.
 
 ---
 
@@ -134,7 +134,7 @@ The mock interview helped me identify my strengths — such as clearly explainin
 
 **Situation**
 
-I was required to publish my CV and portfolio online using **GitHub Pages** — a free static site hosting service built into GitHub. This would make my portfolio publicly accessible to lecturers and potential employers.
+I was required to publish my CV and portfolio online using **GitHub Pages** a free static site hosting service built into GitHub. This would make my portfolio publicly accessible to lecturers and potential employers.
 
 **Task**
 
@@ -146,6 +146,6 @@ I navigated to my repository settings on GitHub and enabled GitHub Pages by sele
 
 **Result**
 
-My portfolio was successfully published and is accessible online via GitHub Pages. This experience taught me how to deploy static web content using GitHub's built-in hosting tools — a practical skill relevant to real-world developer workflows. It also gave me a sense of ownership over my professional online presence.
+My portfolio was successfully published and is accessible online via GitHub Pages. This experience taught me how to deploy static web content using GitHub's built-in hosting tools a practical skill relevant to real-world developer workflows. It also gave me a sense of ownership over my professional online presence.
 
 ---
