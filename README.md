@@ -9,7 +9,6 @@
 
 I am a Junior Full-Stack Developer and UX/UI Designer currently completing my Diploma in ICT at CPUT. I specialise in building modern web applications and SaaS user interfaces using React, Vue.js, and Node.js. I am highly proficient in implementing Material Design and Apple Human Interface Guidelines to deliver high-fidelity digital products backed by clean, scalable code.
 
----
 
 ---
 
