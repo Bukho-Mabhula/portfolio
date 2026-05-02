@@ -11,16 +11,6 @@ I am a Junior Full-Stack Developer and UX/UI Designer currently completing my Di
 
 ---
 
-## 💼 Work Experience
-
-### Merchandiser
-**Boxer Superstore** | 2023 – 2025
-- Collaborated with store management to optimise visual layouts, ensuring brand standards were met.
-
-### Chipper
-**The Hussar Grill** | 2020 – 2021
-- Followed precise operational procedures to ensure safety and consistency, demonstrating a high level of attention to detail and reliability.
-
 ---
 
 ## 🎓 Education
@@ -30,6 +20,17 @@ I am a Junior Full-Stack Developer and UX/UI Designer currently completing my Di
 
 ### High School
 **Desmond Mpilo Tutu Secondary** | 2015 – 2019
+
+---
+## 💼 Work Experience
+
+### Merchandiser
+**Boxer Superstore** | 2023 – 2025
+- Collaborated with store management to optimise visual layouts, ensuring brand standards were met.
+
+### Chipper
+**The Hussar Grill** | 2020 – 2021
+- Followed precise operational procedures to ensure safety and consistency, demonstrating a high level of attention to detail and reliability.
 
 ---
 
