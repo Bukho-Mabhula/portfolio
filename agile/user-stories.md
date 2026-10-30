@@ -5,19 +5,19 @@ permalink: /agile/user-stories/
 
 # Pulse Guard User Stories
 
-The diagrams below show the citizen and admin journeys recorded on the [Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). They are visual summaries of the stories, not substitutes for Trello acceptance criteria.
+The diagrams below show the citizen and admin journeys recorded on the [Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). The board uses checklists to break many stories into tasks; the [user story task breakdown]({{ '/agile/user-story-tasks/' | relative_url }}) transcribes those checklist items.
 
 ## Citizen safety and reporting journey
 
 <img src="{{ '/assets/diagrams/citizen-flow.svg' | relative_url }}" alt="Citizen journey: new or returning user, danger-zone check, and crime reporting with video or audio and GPS location" width="100%" />
 
-The detailed [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the reporting story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have titles but no descriptions in the supplied export, so their paths are not specified there. The [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL) card description says the feature is finished and mentions waiting for the server, while the card remains open in the export.
+The [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ), [New user](https://trello.com/c/tjHW9g0N), and [Returning user](https://trello.com/c/59I7BAqK) cards have checklist steps even where the card description is blank. The [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL) card also has a checklist; its description says the feature is finished and mentions waiting for the server, while the parent card remains open in the export.
 
 ## Admin incident workflow
 
 <img src="{{ '/assets/diagrams/admin-flow.svg' | relative_url }}" alt="Admin journey: sign in, review and filter incidents, read a report, and optionally resolve it; optional statistics, heat-map, and scheduling views" width="100%" />
 
-The board has titles for admin sign-in, incident overview, filtering, reading, resolving, statistics, the heat map, and scheduling. Several of these cards have no descriptions in the supplied export, so their expected behavior and acceptance criteria are not recorded there.
+The admin cards use checklists to record concrete actions for sign-in, the incident overview, filtering, reading, resolving, statistics, the heat map, and scheduling. Some parent-card descriptions are blank or brief; their checklist steps are transcribed on the task breakdown page.
 
 ## Session security decision flow
 
@@ -47,10 +47,10 @@ The [Session security and token handling](https://trello.com/c/GcWRnXuO) card de
 - [Admin reviews the heat map](https://trello.com/c/vY4gCKeG).
 - [Admin creates a schedule](https://trello.com/c/zixpGjY1). The card describes this as a Could-priority backlog item.
 
-The supplied export contains titles, but no story descriptions, for the new-user and returning-user cards.
+The new-user and returning-user cards have blank descriptions, but their checklists record onboarding and sign-in steps.
 
 ## Reflection
 
 Mapping the user stories helped me see how the citizen reporting flow and the admin incident workflow depend on one another. A report needs to be captured and sent with its location before an administrator can review and resolve it. The session-security flow also reminded me that reporting features need a clear sign-in and timeout path.
 
-The Trello cards do not all describe the same level of detail. The reporting card gives concrete steps, while the new-user and returning-user cards have titles without story descriptions. Several admin cards also need acceptance criteria, and the danger-zone card says the feature is finished while still appearing in a sprint list. I learned that a diagram can make a proposed journey easier to discuss, but it cannot fill in requirements the team has not agreed on. I would next confirm the unclear cards with the team, write testable acceptance criteria, and update the diagrams to match those decisions. The numbered Trello screenshots provide board context for this reflection.
+The Trello cards use a mix of descriptions and checklists. Reading both helped me see that the new-user and returning-user steps are recorded in checklists even though their descriptions are blank. I also noticed status wording that does not align: the danger-zone card says the feature is finished but remains open, and the resolve checklist uses acknowledge language. I learned to distinguish task detail from a card's completion status. The diagrams and task breakdown make the recorded work easier to follow while preserving those board inconsistencies.

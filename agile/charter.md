@@ -38,16 +38,18 @@ The team communicates about daily work. The charter records a video meeting ever
 
 ### 3.1 Agile framework
 
-The source charter lists Kanban as an option but leaves it unchecked, so the selected Agile framework is not recorded.
+**Proposed framework: Scrum.** The Trello board is organized into sprints, and the charter already lists sprint planning, daily stand-ups, reviews, and retrospectives. Scrum therefore fits the working structure recorded in the project artifacts. The original Kanban checkbox remains unchecked; this proposal has not been recorded as a team decision. (Schwaber and Sutherland, 2020)
 
-### 3.2 Ceremonies
+### 3.2 Proposed Scrum cadence
+
+The source charter records daily lunch meetings from 13:00 to 13:30 and reviews during stand-ups. The cadence below is a Scrum-aligned proposal for the team to review; it does not claim that the team has already adopted these timeboxes.
 
 | Ceremony | Frequency | Purpose |
 |---|---|---|
-| Daily stand-up | Daily (20 minutes) | Briefly share completed work, next work, and blockers. |
-| Planning | Start of each sprint | Decide which research, design, or development tasks to complete in the sprint. |
-| Review / demo | During each stand-up | Present completed work, such as the prototype or design, and gather feedback. |
-| Retrospective | End of each stand-up and sprint | Reflect on what went well, what could improve, and how to work better in the next sprint. |
+| Daily Scrum | Daily (15 minutes) | Inspect progress toward the Sprint Goal and plan the next day's work. |
+| Sprint Planning | Start of each sprint | Agree on a Sprint Goal and select work the team expects to complete. |
+| Sprint Review | End of each sprint | Inspect the increment with stakeholders and discuss what to do next. |
+| Sprint Retrospective | End of each sprint | Inspect how the sprint went and choose an improvement for the next sprint. |
 
 ## 4. Working agreements
 
@@ -70,6 +72,8 @@ The source charter lists Kanban as an option but leaves it unchecked, so the sel
 ## 6. Decision-making
 
 The source charter leaves all listed decision methods unchecked. Its note says the team works through a problem and chooses the closest suitable solution, but it does not name a formal decision rule.
+
+**Proposed decision rule:** seek team alignment on how to do the work. The Product Owner orders the Product Backlog and clarifies product priorities; the Developers decide how to complete selected work. If the team cannot resolve a product-priority question, the Product Owner makes that product decision after hearing the team's input. This proposal follows Scrum's distinction between product accountability and the Developers' responsibility for their plan. (Schwaber and Sutherland, 2020)
 
 ## 7. Definition of Done
 
@@ -112,9 +116,10 @@ Respect, transparency, accountability, trust, a learning mindset, patience, hone
 
 ## 10. Review and improvement
 
-The source charter does not select a review interval (quarter, release, or retrospective).
+**Proposed review interval:** at the end of every sprint, during the Sprint Retrospective. This matches the sprint-based board and the charter's existing improvement ceremony. (Schwaber and Sutherland, 2020)
 
-**Last updated:** 21 April 2026
+- **Source charter last updated:** 21 April 2026
+- **Portfolio page revised:** 30 October 2026
 
 ## 11. Team commitment
 
@@ -131,5 +136,9 @@ The charter records these names and agreement signatures:
 
 The charter gave the team a shared reason for building Pulse Guard and connected the planned features to a community safety goal. The role descriptions, meeting routine, working agreements, and Definition of Done also gave us a starting point for coordinating design and development. Reviewing the charter beside the project work showed me that a charter is useful only when the team keeps it current and uses it to make decisions.
 
-I would improve it by confirming the unchecked Agile framework, decision method, and review interval with the team. I would also turn the success measures and Definition of Done into criteria that can be checked during reviews, and revisit the privacy, integration, hosting-cost, and device-testing risks as the product changes. This would make the charter more practical as a guide for the next sprint.
+The original charter left the framework, decision method, and review interval unselected. I drafted a Scrum-aligned proposal because the board uses sprints and the charter already names sprint ceremonies. The proposal makes responsibilities and review timing clearer, but the team still needs to agree to it before it is treated as the team's adopted working agreement. I would also turn the success measures and Definition of Done into criteria that can be checked during reviews, and revisit the privacy, integration, hosting-cost, and device-testing risks as the product changes.
+
+## Reference
+
+Schwaber, K. and Sutherland, J. (2020) *The Scrum Guide: The Definitive Guide to Scrum: The Rules of the Game*. Available at: [https://scrumguides.org/scrum-guide.html](https://scrumguides.org/scrum-guide.html) (Accessed: 30 October 2026).
 

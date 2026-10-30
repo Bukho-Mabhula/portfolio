@@ -20,8 +20,8 @@ These diagrams organize the stories recorded on the [Pulse Guard Trello board](h
 
 ### Other citizen cards
 
-- [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK): the export contains titles but no descriptions, so their paths are not specified in the board record.
-- [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL): the card description says the feature is finished and mentions waiting for the server, while the card remains open in the export.
+- [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK): the card descriptions are blank, but their checklists record onboarding, registration, and sign-in steps.
+- [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL): the card has a task checklist; its description says the feature is finished and mentions waiting for the server, while the parent card remains open in the export.
 
 ## Citizen and admin journey
 
@@ -29,8 +29,8 @@ These diagrams organize the stories recorded on the [Pulse Guard Trello board](h
 flowchart TD
     subgraph Citizen[Citizen app]
         Start([Open Pulse Guard]) --> Registered{Registered before?}
-        Registered -->|No| NewUser[New-user flow<br/>Not described on Trello]
-        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Not described on Trello]
+        Registered -->|No| NewUser[Onboarding and registration checklist]
+        Registered -->|Yes| ReturningUser[Onboarding and sign-in checklist]
         NewUser --> Home[Signed-in user]
         ReturningUser --> Home
         Home --> Safety{Check danger zones before leaving?}
@@ -83,7 +83,7 @@ flowchart TD
 
 ## Admin stories
 
-The board includes these admin story cards. The supplied export has titles but no descriptions for several items, so their expected behavior and acceptance criteria are not recorded here.
+The board includes admin story cards with checklists for sign-in, incident review, filtering, resolution, statistics, heat-map review, and scheduling. Some card descriptions are blank or brief; the available checklist steps are transcribed on the user story task breakdown page.
 
 - [Admin signs into the dashboard](https://trello.com/c/KPWIbi9v).
 - [Admin views the incident overview](https://trello.com/c/TinbDlTB).
@@ -96,4 +96,4 @@ The board includes these admin story cards. The supplied export has titles but n
 
 ## Reflection
 
-Mapping these stories helped me understand how a citizen report moves into the admin workflow. Some Trello cards have only titles or brief descriptions, so the diagrams are discussion aids rather than final acceptance criteria. I would confirm the missing details with the team, write testable criteria, and update the flow after those decisions. The numbered Trello screenshots show where the cards sit across the board's sprint lists.
+Mapping these stories helped me understand how a citizen report moves into the admin workflow. The Trello cards use a mix of descriptions and checklists. The new-user and returning-user steps are recorded in checklists even though their descriptions are blank. I also noticed status wording that does not align: the danger-zone card says the feature is finished but remains open, and the resolve checklist uses acknowledge language. I learned to distinguish task detail from a card's completion status. The diagrams and task breakdown make the recorded work easier to follow while preserving those board inconsistencies.

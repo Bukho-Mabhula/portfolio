@@ -158,14 +158,14 @@ My portfolio was successfully published and is accessible online via GitHub Page
 
 ## Pulse Guard User Story Decision Diagram
 
-This diagram organizes user flows from the [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). The [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the detailed citizen story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have titles but no descriptions in the supplied export. Several admin cards also have no descriptions, so those requirements are not specified in the board record.
+This diagram organizes user flows from the [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). Several story cards have checklist steps even when their descriptions are blank. The [user story task breakdown](agile/user-story-tasks.md) transcribes those checklist items. Some status wording still conflicts between card descriptions, checklists, and parent-card state.
 
 ```mermaid
 flowchart TD
     subgraph Citizen[Citizen app]
         Start([Open Pulse Guard]) --> Registered{Registered before?}
-        Registered -->|No| NewUser[New-user flow<br/>Not described on Trello]
-        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Not described on Trello]
+        Registered -->|No| NewUser[Onboarding and registration checklist]
+        Registered -->|Yes| ReturningUser[Onboarding and sign-in checklist]
         NewUser --> Home[Signed-in user]
         ReturningUser --> Home
         Home --> Safety{Check danger zones before leaving?}
@@ -196,7 +196,7 @@ flowchart TD
     end
 ```
 
-The diagram is a high-level map of the stories, not a complete task or acceptance-criteria diagram. The [Session security and token handling](https://trello.com/c/GcWRnXuO) card is shown separately below. Some board cards have blank descriptions and others contain only brief notes; the diagrams show only the behavior described in the available records.
+The diagram is a high-level map of the stories. The [Session security and token handling](https://trello.com/c/GcWRnXuO) card is shown separately below. The task breakdown page records checklist steps where the board provides them; unresolved status wording is left as shown in the export.
 
 ### Session security decision flow
 
@@ -222,6 +222,6 @@ This flow follows the requirements in the [Session security and token handling](
 
 ## GitHub Pages and Agile Evidence
 
-The Pages homepage is [`index.md`](index.md). It links to the Markdown pages for the [team charter](agile/charter.md), [user stories and Mermaid diagrams](agile/user-stories.md), and [Agile logbook](agile/logbook/index.md). The [Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project) contains the backlog and sprint cards.
+The Pages homepage is [`index.md`](index.md). It links to the Markdown pages for the [team charter](agile/charter.md), [user stories and Mermaid diagrams](agile/user-stories.md), [user story task breakdown](agile/user-story-tasks.md), [Product and Sprint Backlogs](agile/backlogs.md), and [Agile logbook](agile/logbook/index.md). The [Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project) contains the backlog and sprint cards.
 
 The GitHub Pages site publishes from the `main` branch root using Jekyll. The Pages story page displays the journeys as SVG images, while the editable Mermaid source stays in [`agile/user-stories-source.md`](agile/user-stories-source.md). GitHub's repository Markdown view can render Mermaid source directly.
