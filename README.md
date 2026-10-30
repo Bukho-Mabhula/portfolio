@@ -126,7 +126,7 @@ The mock interview helped me identify my strengths such as clearly explaining te
 
 ##  GitHub Pages
 
-**Live Portfolio:** [Bukho-Mabhula.github.io](https://Bukho-Mabhula.github.io)
+**Live Portfolio:** [Bukho-Mabhula.github.io/portfolio](https://bukho-mabhula.github.io/portfolio/)
 
 ---
 
