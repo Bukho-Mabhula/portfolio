@@ -7,7 +7,7 @@ permalink: /agile/
 
 This section collects the Agile artifacts for the Pulse Guard project. The Trello board provides the project backlog and sprint cards; the pages below organize the charter, user stories, and logbook records for the digital portfolio.
 
-## Artifacts
+## Evidence and project links
 
 - [Agile Team Charter](charter.md)
 - [User Stories]({{ '/agile/user-stories/' | relative_url }})
