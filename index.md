@@ -19,6 +19,6 @@ Pulse Guard is a community safety concept focused on crime reporting, situationa
 
 - [Agile project evidence](agile/index.md)
 - [Team charter](agile/charter.md)
-- [User stories and Mermaid diagrams](agile/user-stories.md)
+- [User Stories]({{ '/agile/user-stories/' | relative_url }})
 - [Agile logbook](agile/logbook/index.md)
 - [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project)

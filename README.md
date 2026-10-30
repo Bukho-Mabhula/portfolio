@@ -126,7 +126,7 @@ The mock interview helped me identify my strengths such as clearly explaining te
 
 ##  GitHub Pages
 
-**Live Portfolio:** [Bukho-Mabhula.github.io/portfolio](https://bukho-mabhula.github.io/portfolio/)
+**Live Portfolio:** [Bukho-Mabhula.github.io](https://bukho-mabhula.github.io/)
 
 ---
 
@@ -218,4 +218,4 @@ This flow follows the requirements written in card #4: idle timeout, manual logo
 
 The Pages homepage is [`index.md`](index.md). It links to the Markdown pages for the [team charter](agile/charter.md), [user stories and Mermaid diagrams](agile/user-stories.md), and [Agile logbook](agile/logbook/index.md). The [Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project) contains the backlog and sprint cards.
 
-The site is prepared to publish from the `main` branch root using Jekyll. In GitHub, open **Settings → Pages** and select **Deploy from a branch**, branch `main`, folder `/(root)`. GitHub Pages processes Markdown through Jekyll; GitHub's repository Markdown view renders Mermaid charts, while a Pages page may display Mermaid syntax as a code block.
+The GitHub Pages site publishes from the `main` branch root using Jekyll. The Pages story page displays the journeys as SVG images, while the editable Mermaid source stays in [`agile/user-stories-source.md`](agile/user-stories-source.md). GitHub's repository Markdown view can render Mermaid source directly.

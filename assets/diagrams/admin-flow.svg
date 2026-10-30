@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <rect width="1400" height="1000" rx="28" fill="#f6f8f5"/>
+  <svg x="0" y="0" width="1400" height="1000" viewBox="0 0 1600 1120" preserveAspectRatio="xMidYMid meet">
+<title id="title">Pulse Guard admin incident workflow</title>
+  <desc id="desc">The admin signs in, reviews the incident overview, optionally filters incidents, reads an incident, and may mark it resolved. Statistics, heat-map, and scheduling views are optional.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#35572a"/></marker>
+    <style>
+      .bg{fill:#f6f8f5}.title{font:700 32px system-ui,sans-serif;fill:#244617}.sub{font:16px system-ui,sans-serif;fill:#58675f}
+      .line{fill:none;stroke:#35572a;stroke-width:3;marker-end:url(#arrow);stroke-linecap:round;stroke-linejoin:round}
+      .box{fill:#fff;stroke:#56C218;stroke-width:2}.action{fill:#f1f8ed;stroke:#56C218;stroke-width:2}.decision{fill:#fff7df;stroke:#bb8b25;stroke-width:2}
+      .start{fill:#56C218;stroke:#3e9011;stroke-width:2}.text{font:600 19px system-ui,sans-serif;fill:#17231f;text-anchor:middle}.small{font:15px system-ui,sans-serif;fill:#53645b;text-anchor:middle}.white{fill:#17310f}.tag{font:700 15px system-ui,sans-serif;fill:#56C218}
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1120" rx="28"/>
+  <text class="title" x="800" y="48" text-anchor="middle">Admin incident workflow</text>
+  <text class="sub" x="800" y="76" text-anchor="middle">Pulse Guard dashboard · Trello stories #5, #6, #7, #12, #13, #107, #110, #115</text>
+
+  <path class="line" d="M560 152 V190"/>
+  <path class="line" d="M560 270 V310"/>
+  <path class="line" d="M560 390 V445"/>
+  <path class="line" d="M520 505 H250 V620"/>
+  <path class="line" d="M880 505 H1000 V590 H700 V620"/>
+  <path class="line" d="M440 665 H560"/>
+  <path class="line" d="M700 710 V760"/>
+  <path class="line" d="M520 820 H250 V930"/>
+  <path class="line" d="M880 820 H1000 V930"/>
+  <path class="line" d="M700 350 H1030 V270 H1090"/>
+  <path class="line" d="M700 350 H1050 V410 H1090"/>
+  <path class="line" d="M700 350 H1070 V550 H1090"/>
+  <text class="tag" x="325" y="490">YES</text>
+  <text class="tag" x="920" y="490">NO</text>
+  <text class="tag" x="325" y="805">NO</text>
+  <text class="tag" x="930" y="805">YES</text>
+
+  <rect class="start" x="420" y="82" width="280" height="70" rx="35"/>
+  <text class="text white" x="560" y="125">Admin</text>
+  <rect class="box" x="420" y="190" width="280" height="80" rx="18"/>
+  <text class="text" x="560" y="238">Sign in · Trello #5</text>
+  <rect class="action" x="420" y="310" width="280" height="80" rx="18"/>
+  <text class="text" x="560" y="358">Incident overview · #13</text>
+
+  <polygon class="decision" points="700,445 880,505 700,565 520,505"/>
+  <text class="text" x="700" y="500"><tspan x="700">Filter incidents</tspan><tspan x="700" dy="24">by type or area?</tspan></text>
+  <rect class="box" x="60" y="620" width="380" height="90" rx="18"/>
+  <text class="text" x="250" y="658"><tspan x="250">Apply type or area filter</tspan><tspan class="small" x="250" dy="24">Trello #12</tspan></text>
+  <rect class="action" x="560" y="620" width="280" height="90" rx="18"/>
+  <text class="text" x="700" y="658"><tspan x="700">Read submitted</tspan><tspan x="700" dy="24">incident · #6</tspan></text>
+
+  <polygon class="decision" points="700,760 880,820 700,880 520,820"/>
+  <text class="text" x="700" y="815"><tspan x="700">Resolve this</tspan><tspan x="700" dy="24">incident?</tspan></text>
+  <rect class="box" x="60" y="930" width="380" height="90" rx="18"/>
+  <text class="text" x="250" y="968"><tspan x="250">Leave open and return</tspan><tspan x="250" dy="24">to overview</tspan></text>
+  <rect class="start" x="860" y="930" width="280" height="90" rx="18"/>
+  <text class="text white" x="1000" y="968"><tspan x="1000">Mark incident</tspan><tspan x="1000" dy="24">resolved · #7</tspan></text>
+
+  <rect class="box" x="1090" y="220" width="450" height="100" rx="18"/>
+  <text class="text" x="1315" y="260"><tspan x="1315">View crime statistics</tspan><tspan class="small" x="1315" dy="24">Optional dashboard view · #107</tspan></text>
+  <rect class="box" x="1090" y="360" width="450" height="100" rx="18"/>
+  <text class="text" x="1315" y="400"><tspan x="1315">Review heat map</tspan><tspan class="small" x="1315" dy="24">Optional dashboard view · #110</tspan></text>
+  <rect class="box" x="1090" y="500" width="450" height="100" rx="18"/>
+  <text class="text" x="1315" y="540"><tspan x="1315">Create officer schedule</tspan><tspan class="small" x="1315" dy="24">Could-priority backlog item · #115</tspan></text>
+  </svg>
+</svg>
