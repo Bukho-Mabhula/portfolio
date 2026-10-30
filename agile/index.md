@@ -11,8 +11,8 @@ This section collects the Agile artifacts for the Pulse Guard project. The Trell
 
 - [Agile Team Charter](charter.md)
 - [User Stories]({{ '/agile/user-stories/' | relative_url }})
-- [Agile logbook and entry template](logbook/index.md)
+- [Agile logbook](logbook/index.md)
 - [Trello screenshot evidence](evidence/README.md)
 - [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project)
 
-Add screenshots of the actual artifacts and write an individual reflection for each assessment area. Keep logbook entries dated and based on real project activity.
+The charter, user stories, and dated logbook include individual reflections based on the project records. Trello screenshots are organized on the evidence page, and the original logbook and charter documents are linked from their respective pages.

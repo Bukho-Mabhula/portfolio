@@ -44,9 +44,9 @@
   <text class="text" x="700" y="250"><tspan x="700">New or returning</tspan><tspan x="700" dy="24">user?</tspan></text>
 
   <rect class="box" x="60" y="390" width="390" height="100" rx="18"/>
-  <text class="text" x="255" y="430"><tspan x="255">New-user flow</tspan><tspan class="small" x="255" dy="25">Details to confirm with team</tspan></text>
+  <text class="text" x="255" y="430"><tspan x="255">New-user flow</tspan><tspan class="small" x="255" dy="25">Not described on Trello</tspan></text>
   <rect class="box" x="950" y="390" width="390" height="100" rx="18"/>
-  <text class="text" x="1145" y="430"><tspan x="1145">Returning-user flow</tspan><tspan class="small" x="1145" dy="25">Details to confirm with team</tspan></text>
+  <text class="text" x="1145" y="430"><tspan x="1145">Returning-user flow</tspan><tspan class="small" x="1145" dy="25">Not described on Trello</tspan></text>
 
   <rect class="action" x="560" y="545" width="280" height="72" rx="18"/>
   <text class="text" x="700" y="589">Signed-in user</text>

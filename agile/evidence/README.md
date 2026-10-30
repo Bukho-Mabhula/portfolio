@@ -32,3 +32,25 @@ The numbers in filenames such as `Screenshot (1192).png` identify the screenshot
 ### 4. Screenshot (1195) — Sprints 21–26
 
 ![Screenshot 1195 showing the Pulse Guard Trello board from Sprint 21 through Sprint 26]({{ '/assets/screenshots/Screenshot%20%281195%29.png' | relative_url }})
+
+## Logbook document evidence
+
+The following screenshots show pages from the original logbook documents. They support the written logbook entries; the [Google Drive folder](https://drive.google.com/drive/folders/15pWhN-yAavtKGWiAop_FtVsFqUDiR16h) is linked from the logbook index.
+
+### August logbook
+
+![Screenshot 1198 showing a Pulse Guard logbook walkthrough page]({{ '/assets/screenshots/Screenshot%20%281198%29.png' | relative_url }})
+
+![Screenshot 1199 showing an August Pulse Guard logbook entry]({{ '/assets/screenshots/Screenshot%20%281199%29.png' | relative_url }})
+
+![Screenshot 1200 showing an August Pulse Guard logbook entry]({{ '/assets/screenshots/Screenshot%20%281200%29.png' | relative_url }})
+
+### April logbook
+
+![Screenshot 1201 showing an April Pulse Guard logbook walkthrough page]({{ '/assets/screenshots/Screenshot%20%281201%29.png' | relative_url }})
+
+![Screenshot 1202 showing an April Pulse Guard logbook entry]({{ '/assets/screenshots/Screenshot%20%281202%29.png' | relative_url }})
+
+![Screenshot 1203 showing an April Pulse Guard logbook entry]({{ '/assets/screenshots/Screenshot%20%281203%29.png' | relative_url }})
+
+![Screenshot 1204 showing an April Pulse Guard logbook entry]({{ '/assets/screenshots/Screenshot%20%281204%29.png' | relative_url }})

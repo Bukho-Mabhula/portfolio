@@ -36,7 +36,7 @@ The team communicates about daily work. The charter records a video meeting ever
 
 ### 3.1 Agile framework
 
-- [ ] Kanban
+The source charter lists Kanban as an option but leaves it unchecked, so the selected Agile framework is not recorded.
 
 ### 3.2 Ceremonies
 
@@ -67,14 +67,7 @@ The team communicates about daily work. The charter records a video meeting ever
 
 ## 6. Decision-making
 
-The charter leaves the decision-method checkboxes unselected:
-
-- [ ] Consensus
-- [ ] Product Owner final decision
-- [ ] Team vote
-- [ ] Agile Lead decides after input
-
-The written note says the team works around a problem and chooses the closest suitable solution. Confirm and document the actual decision process with the team.
+The source charter leaves all listed decision methods unchecked. Its note says the team works through a problem and chooses the closest suitable solution, but it does not name a formal decision rule.
 
 ## 7. Definition of Done
 
@@ -117,11 +110,7 @@ Respect, transparency, accountability, trust, a learning mindset, patience, hone
 
 ## 10. Review and improvement
 
-The charter review interval is not selected:
-
-- [ ] Quarter
-- [ ] Release
-- [ ] Retrospective
+The source charter does not select a review interval (quarter, release, or retrospective).
 
 **Last updated:** 21 April 2026
 
@@ -141,3 +130,8 @@ The charter records these names and agreement signatures:
 The charter gave the team a shared reason for building Pulse Guard and connected the planned features to a community safety goal. The role descriptions, meeting routine, working agreements, and Definition of Done also gave us a starting point for coordinating design and development. Reviewing the charter beside the project work showed me that a charter is useful only when the team keeps it current and uses it to make decisions.
 
 I would improve it by confirming the unchecked Agile framework, decision method, and review interval with the team. I would also turn the success measures and Definition of Done into criteria that can be checked during reviews, and revisit the privacy, integration, hosting-cost, and device-testing risks as the product changes. This would make the charter more practical as a guide for the next sprint.
+
+## Evidence
+
+[Evidence](https://drive.google.com/drive/folders/1LwrzyhEGPmq-2difOdZVno3urlodXU4r)
+

@@ -158,14 +158,14 @@ My portfolio was successfully published and is accessible online via GitHub Page
 
 ## Pulse Guard User Story Decision Diagram
 
-This diagram organizes user flows from the [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). The [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the detailed citizen story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have titles but no descriptions, so those paths need confirmation. Several admin cards also need agreed acceptance criteria.
+This diagram organizes user flows from the [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). The [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the detailed citizen story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have titles but no descriptions in the supplied export. Several admin cards also have no descriptions, so those requirements are not specified in the board record.
 
 ```mermaid
 flowchart TD
     subgraph Citizen[Citizen app]
         Start([Open Pulse Guard]) --> Registered{Registered before?}
-        Registered -->|No| NewUser[New-user flow<br/>Details to confirm with team]
-        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Details to confirm with team]
+        Registered -->|No| NewUser[New-user flow<br/>Not described on Trello]
+        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Not described on Trello]
         NewUser --> Home[Signed-in user]
         ReturningUser --> Home
         Home --> Safety{Check danger zones before leaving?}
@@ -196,7 +196,7 @@ flowchart TD
     end
 ```
 
-The diagram is a high-level map of the stories, not a complete task or acceptance-criteria diagram. The [Session security and token handling](https://trello.com/c/GcWRnXuO) card is shown separately below. Some board cards have blank descriptions and others contain only brief notes; agree and record acceptance criteria before treating the flows as final.
+The diagram is a high-level map of the stories, not a complete task or acceptance-criteria diagram. The [Session security and token handling](https://trello.com/c/GcWRnXuO) card is shown separately below. Some board cards have blank descriptions and others contain only brief notes; the diagrams show only the behavior described in the available records.
 
 ### Session security decision flow
 

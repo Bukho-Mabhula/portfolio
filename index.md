@@ -20,6 +20,20 @@ Pulse Guard is a community safety concept focused on crime reporting, situationa
 - **Dashboard:** [Open Pulse Guard dashboard](https://pulse-guard-dashboard.netlify.app/sign-in)
 - **Mobile app:** [Download the Android APK](https://github.com/Bukho127/pulse-guard/releases/download/pulse-guard/application-40ccf1b4-5217-4f99-9dd4-e70e0eff2554.apk)
 
+## Mock Interview
+
+<iframe
+  src="https://drive.google.com/file/d/1QnZgvZ-4kS7fjyWvl20_Cs5BZPuH21mx/preview"
+  title="Bukho Mabhula mock interview video"
+  width="100%"
+  height="480"
+  style="border: 0; max-width: 800px;"
+  allow="autoplay; fullscreen"
+  allowfullscreen>
+</iframe>
+
+If the video does not load, [open the mock interview in Google Drive](https://drive.google.com/file/d/1QnZgvZ-4kS7fjyWvl20_Cs5BZPuH21mx/view?usp=sharing).
+
 ## PRP370 Agile project evidence
 
 - [Agile evidence overview](agile/index.md)

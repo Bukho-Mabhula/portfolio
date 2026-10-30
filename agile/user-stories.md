@@ -11,13 +11,13 @@ The diagrams below show the citizen and admin journeys recorded on the [Trello b
 
 <img src="{{ '/assets/diagrams/citizen-flow.svg' | relative_url }}" alt="Citizen journey: new or returning user, danger-zone check, and crime reporting with video or audio and GPS location" width="100%" />
 
-The detailed [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the reporting story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have no descriptions in the export, so those branches need the team's confirmation. The [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL) card says the feature is finished and mentions waiting for the server; confirm its status and acceptance criteria.
+The detailed [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the reporting story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have titles but no descriptions in the supplied export, so their paths are not specified there. The [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL) card description says the feature is finished and mentions waiting for the server, while the card remains open in the export.
 
 ## Admin incident workflow
 
 <img src="{{ '/assets/diagrams/admin-flow.svg' | relative_url }}" alt="Admin journey: sign in, review and filter incidents, read a report, and optionally resolve it; optional statistics, heat-map, and scheduling views" width="100%" />
 
-The board has titles for admin sign-in, incident overview, filtering, reading, resolving, statistics, the heat map, and scheduling. Several of these cards have no descriptions in the export. Add acceptance criteria to the Trello cards so the intended behavior is clear.
+The board has titles for admin sign-in, incident overview, filtering, reading, resolving, statistics, the heat map, and scheduling. Several of these cards have no descriptions in the supplied export, so their expected behavior and acceptance criteria are not recorded there.
 
 ## Session security decision flow
 
@@ -47,7 +47,7 @@ The [Session security and token handling](https://trello.com/c/GcWRnXuO) card de
 - [Admin reviews the heat map](https://trello.com/c/vY4gCKeG).
 - [Admin creates a schedule](https://trello.com/c/zixpGjY1). The card describes this as a Could-priority backlog item.
 
-The new-user and returning-user cards have titles but no story descriptions in the export. Confirm their story details with the team.
+The supplied export contains titles, but no story descriptions, for the new-user and returning-user cards.
 
 ## Reflection
 

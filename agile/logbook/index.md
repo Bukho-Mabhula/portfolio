@@ -24,13 +24,13 @@ This logbook is arranged chronologically. The April source files were exact dupl
 ## Supporting records
 
 - [Project walkthrough and taskboard inventory](project-walkthrough.md)
-- [Entry template](entry-template.md)
 - [Trello screenshot evidence](../evidence/README.md)
 - [Original logbook documents on Google Drive](https://drive.google.com/drive/folders/15pWhN-yAavtKGWiAop_FtVsFqUDiR16h)
+- [Team charter evidence on Google Drive](https://drive.google.com/drive/folders/1LwrzyhEGPmq-2difOdZVno3urlodXU4r)
 
-The entries retain the recorded completed work, next steps, and impediments. The source documents do not provide sprint numbers, participant lists, session durations, or measured outcomes for each date, so those have not been inferred. Add those details to future entries when they are available, along with links to the relevant Trello cards or other evidence.
+These entries preserve the completed work, next steps, and impediments recorded in the source documents. The sources do not provide sprint numbers, participant lists, session durations, or measured outcomes for each date, so those details are not stated here.
 
-The 4 August entry records that the backend and Go video-processing worker were deployed to AKS and the dashboard was published on Netlify. The Trello export has a deployment backlog card whose description says “completed” while the card remains open, plus a separate deployment card in Sprint 25. Confirm the live board status when presenting these records together.
+The 4 August entry records deployment of the backend and Go video-processing worker to AKS and publication of the dashboard on Netlify. In the supplied Trello export, a deployment backlog card says “completed” in its description while remaining open; a separate deployment card appears in Sprint 25. The logbook records the dated activity, while the Trello export shows the board status captured in that export.
 
 ## Logbook reflection
 

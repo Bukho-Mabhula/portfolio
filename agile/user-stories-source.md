@@ -20,8 +20,8 @@ These diagrams organize the stories recorded on the [Pulse Guard Trello board](h
 
 ### Other citizen cards
 
-- [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK): the export contains titles but no descriptions. Confirm the story details with the team.
-- [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL): the card says the feature is finished and mentions waiting for the server. Confirm its status and acceptance criteria.
+- [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK): the export contains titles but no descriptions, so their paths are not specified in the board record.
+- [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL): the card description says the feature is finished and mentions waiting for the server, while the card remains open in the export.
 
 ## Citizen and admin journey
 
@@ -29,8 +29,8 @@ These diagrams organize the stories recorded on the [Pulse Guard Trello board](h
 flowchart TD
     subgraph Citizen[Citizen app]
         Start([Open Pulse Guard]) --> Registered{Registered before?}
-        Registered -->|No| NewUser[New-user flow<br/>Details to confirm with team]
-        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Details to confirm with team]
+        Registered -->|No| NewUser[New-user flow<br/>Not described on Trello]
+        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Not described on Trello]
         NewUser --> Home[Signed-in user]
         ReturningUser --> Home
         Home --> Safety{Check danger zones before leaving?}
@@ -83,7 +83,7 @@ flowchart TD
 
 ## Admin stories
 
-The board includes these admin stories. The export has card titles, but no descriptions for these items; add acceptance criteria to the Trello cards to define the expected behavior.
+The board includes these admin story cards. The supplied export has titles but no descriptions for several items, so their expected behavior and acceptance criteria are not recorded here.
 
 - [Admin signs into the dashboard](https://trello.com/c/KPWIbi9v).
 - [Admin views the incident overview](https://trello.com/c/TinbDlTB).

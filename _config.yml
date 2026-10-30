@@ -17,4 +17,5 @@ defaults:
       layout: default
 exclude:
   - agile/logbook/source-documents
+  - agile/logbook/entry-template.md
   - agile/user-stories-source.md
