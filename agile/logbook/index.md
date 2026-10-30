@@ -23,6 +23,7 @@ This logbook is arranged chronologically. The April source files were exact dupl
 
 ## Supporting records
 
+- [Agile Team Charter](../charter.md)
 - [Project walkthrough and taskboard inventory](project-walkthrough.md)
 - [Trello screenshot evidence](../evidence/README.md)
 - [Original logbook documents on Google Drive](https://drive.google.com/drive/folders/15pWhN-yAavtKGWiAop_FtVsFqUDiR16h)

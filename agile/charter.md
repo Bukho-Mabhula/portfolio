@@ -5,6 +5,8 @@ permalink: /agile/charter/
 
 # Agile Team Charter
 
+**Charter evidence:** [Open the original team charter in Google Drive](https://drive.google.com/drive/folders/1LwrzyhEGPmq-2difOdZVno3urlodXU4r)
+
 ## 1. Team purpose and vision
 
 ### Why do we exist as a team?
@@ -130,8 +132,4 @@ The charter records these names and agreement signatures:
 The charter gave the team a shared reason for building Pulse Guard and connected the planned features to a community safety goal. The role descriptions, meeting routine, working agreements, and Definition of Done also gave us a starting point for coordinating design and development. Reviewing the charter beside the project work showed me that a charter is useful only when the team keeps it current and uses it to make decisions.
 
 I would improve it by confirming the unchecked Agile framework, decision method, and review interval with the team. I would also turn the success measures and Definition of Done into criteria that can be checked during reviews, and revisit the privacy, integration, hosting-cost, and device-testing risks as the product changes. This would make the charter more practical as a guide for the next sprint.
-
-## Evidence
-
-[Evidence](https://drive.google.com/drive/folders/1LwrzyhEGPmq-2difOdZVno3urlodXU4r)
 
