@@ -26,6 +26,7 @@ This logbook is arranged chronologically. The April source files were exact dupl
 - [Project walkthrough and taskboard inventory](project-walkthrough.md)
 - [Entry template](entry-template.md)
 - [Trello screenshot evidence](../evidence/README.md)
+- [Original logbook documents on Google Drive](https://drive.google.com/drive/folders/15pWhN-yAavtKGWiAop_FtVsFqUDiR16h)
 
 The entries retain the recorded completed work, next steps, and impediments. The source documents do not provide sprint numbers, participant lists, session durations, or measured outcomes for each date, so those have not been inferred. Add those details to future entries when they are available, along with links to the relevant Trello cards or other evidence.
 
