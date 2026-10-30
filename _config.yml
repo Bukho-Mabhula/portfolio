@@ -1,0 +1,19 @@
+title: Bukho Mabhula | Digital Portfolio
+description: Digital portfolio and Pulse Guard Agile project evidence
+url: https://bukho-mabhula.github.io
+baseurl: /portfolio
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+exclude:
+  - agile/logbook/source-documents

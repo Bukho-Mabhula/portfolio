@@ -149,3 +149,73 @@ I navigated to my repository settings on GitHub and enabled GitHub Pages by sele
 My portfolio was successfully published and is accessible online via GitHub Pages. This experience taught me how to deploy static web content using GitHub's built-in hosting tools a practical skill relevant to real-world developer workflows. It also gave me a sense of ownership over my professional online presence.
 
 ---
+
+## Pulse Guard User Story Decision Diagram
+
+This diagram organizes the user flows on the [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). The citizen crime-reporting flow uses the detailed story in card #8. The new-user and returning-user cards (#93 and #94) have no descriptions in the board export, so those paths need confirmation by the team. Several admin cards have titles but no acceptance criteria in their descriptions.
+
+```mermaid
+flowchart TD
+    subgraph Citizen[Citizen app]
+        Start([Open Pulse Guard]) --> Registered{Registered before?}
+        Registered -->|No| NewUser[New-user flow<br/>Trello #93 - details to confirm]
+        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Trello #94 - details to confirm]
+        NewUser --> Home[Signed-in user]
+        ReturningUser --> Home
+        Home --> Safety{Check danger zones before leaving?}
+        Safety -->|Yes| DangerZones[Review danger zones<br/>Trello #95]
+        Safety -->|No| Crime{Crime in progress?}
+        DangerZones --> Crime
+        Crime -->|No| Home
+        Crime -->|Yes| StartReport[Tap the + button<br/>Trello #8]
+        StartReport --> Capture[Start live video or audio]
+        Capture --> Location[Capture GPS location]
+        Location --> Send[Send recording and location to nearest police station or private security]
+        Send --> Confirmation[Confirm the report was sent]
+    end
+
+    subgraph Admin[Admin dashboard]
+        AdminStart([Admin]) --> AdminSignIn[Sign in<br/>Trello #5]
+        AdminSignIn --> Overview[View incident overview<br/>Trello #13]
+        Overview --> Filter{Filter incidents?}
+        Filter -->|Yes| ByTypeArea[Filter by type or area<br/>Trello #12]
+        Filter -->|No| ReadIncident[Read submitted incident<br/>Trello #6]
+        ByTypeArea --> ReadIncident
+        ReadIncident --> Resolve{Mark as resolved?}
+        Resolve -->|Yes| Resolved[Mark incident resolved<br/>Trello #7]
+        Resolve -->|No| Overview
+        Overview -. optional .-> Statistics[View crime statistics and trends<br/>Trello #107]
+        Overview -. optional .-> HeatMap[Review heat map<br/>Trello #110]
+        Overview -. optional .-> Schedule[Create officer schedule<br/>Trello #115]
+    end
+```
+
+The diagram is a high-level map of the stories, not a complete task or acceptance-criteria diagram. The session-security story in card #4 is shown separately below. Cards #5, #6, #7, #12, #13, #93, #94, #107, and #110 have titles but no descriptions in the export; add the team's real acceptance criteria to those cards before treating the flows as final.
+
+### Session security decision flow — Trello card #4
+
+```mermaid
+flowchart TD
+    Access([User opens a protected screen]) --> Token{Token valid and not expired?}
+    Token -->|Yes| Continue[Continue to the requested screen]
+    Token -->|No| SignIn[Redirect to sign-in]
+    SignIn --> Credentials{Credentials accepted?}
+    Credentials -->|No| Retry[Show sign-in error]
+    Retry --> SignIn
+    Credentials -->|Yes| NewToken[Issue a new token]
+    NewToken --> Restore[Restore previous context where possible]
+    Restore --> Continue
+    Logout([User chooses manual logout]) --> End[End the session and require sign-in]
+    Idle([User reaches idle timeout]) --> Expire[Expire the token]
+    Expire --> SignIn
+```
+
+This flow follows the requirements written in card #4: idle timeout, manual logout, redirect after an expired or invalid token, re-authentication, and issuing a new token. The board mentions considering a refresh-token strategy; it does not define that behavior, so it is not shown as implemented here. GitHub renders Mermaid diagrams in Markdown files; if this section is displayed on a separate GitHub Pages site, confirm that site's Mermaid support or include exported diagram images.
+
+---
+
+## GitHub Pages and Agile Evidence
+
+The Pages homepage is [`index.md`](index.md). It links to the Markdown pages for the [team charter](agile/charter.md), [user stories and Mermaid diagrams](agile/user-stories.md), and [Agile logbook](agile/logbook/index.md). The [Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project) contains the backlog and sprint cards.
+
+The site is prepared to publish from the `main` branch root using Jekyll. In GitHub, open **Settings → Pages** and select **Deploy from a branch**, branch `main`, folder `/(root)`. GitHub Pages processes Markdown through Jekyll; GitHub's repository Markdown view renders Mermaid charts, while a Pages page may display Mermaid syntax as a code block.
