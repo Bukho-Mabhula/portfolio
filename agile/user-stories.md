@@ -51,4 +51,6 @@ The new-user and returning-user cards (**#93** and **#94**) have titles but no s
 
 ## Reflection
 
-Write your reflection in your own words. Explain how the user stories informed design and development, what was unclear, and what you learned from mapping the citizen and admin journeys. Include the Trello screenshot as supporting evidence.
+Mapping the user stories helped me see how the citizen reporting flow and the admin incident workflow depend on one another. A report needs to be captured and sent with its location before an administrator can review and resolve it. The session-security flow also reminded me that reporting features need a clear sign-in and timeout path.
+
+The Trello cards do not all describe the same level of detail. Card #8 gives concrete reporting steps, while cards #93 and #94 have titles without story descriptions. Several admin cards also need acceptance criteria, and card #95 appears complete by its description while remaining open on the board. I learned that a diagram can make a proposed journey easier to discuss, but it cannot fill in requirements the team has not agreed on. I would next confirm the unclear cards with the team, write testable acceptance criteria, and update the diagrams to match those decisions. The numbered Trello screenshots provide board context for this reflection.

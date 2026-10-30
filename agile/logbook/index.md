@@ -25,12 +25,14 @@ This logbook is arranged chronologically. The April source files were exact dupl
 
 - [Project walkthrough and taskboard inventory](project-walkthrough.md)
 - [Entry template](entry-template.md)
-- [Evidence folder guidance](../evidence/README.md)
+- [Trello screenshot evidence](../evidence/README.md)
 
-The entries retain the recorded completed work, next steps, and impediments. The source documents do not provide sprint numbers or participant lists for each date, so those have not been inferred.
+The entries retain the recorded completed work, next steps, and impediments. The source documents do not provide sprint numbers, participant lists, session durations, or measured outcomes for each date, so those have not been inferred. Add those details to future entries when they are available, along with links to the relevant Trello cards or other evidence.
 
 The 4 August entry records that the backend and Go video-processing worker were deployed to AKS and the dashboard was published on Netlify. The Trello export has a deployment backlog card whose description says “completed” while the card remains open, plus a separate deployment card in Sprint 25. Confirm the live board status when presenting these records together.
 
 ## Logbook reflection
 
-Add your individual reflection here: explain how the logbook helped track progress, what patterns or blockers you noticed, and what you learned. The dated source entries record stand-up updates but do not include a separate overall reflection.
+Reading the entries in date order shows the work moving from backlog cleanup and team roles, into personas and design assets, then into deployment and integration. The blockers changed as the project progressed: early entries mention role confirmation, limited research, tool costs, and protecting environment keys; the August entries focus on service connectivity, cloud configuration, and completing push notifications.
+
+The logbook helped me distinguish work that was completed from work that was only planned. For example, deploying the backend and dashboard was recorded on 4 August, while the following entries still listed integration checks and notification delivery as future work. I learned that a useful logbook needs a specific outcome as well as a next step. Some original entries do not include sprint numbers, attendees, measurements, or detailed test results. In future entries I would record those details, identify the related Trello card or commit, and note whether each follow-up was completed. That would make progress easier to verify and hand over.
