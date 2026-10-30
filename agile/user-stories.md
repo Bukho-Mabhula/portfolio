@@ -11,7 +11,7 @@ The diagrams below show the citizen and admin journeys recorded on the [Trello b
 
 <img src="{{ '/assets/diagrams/citizen-flow.svg' | relative_url }}" alt="Citizen journey: new or returning user, danger-zone check, and crime reporting with video or audio and GPS location" width="100%" />
 
-The detailed reporting story is Trello card **#8**. Cards **#93** and **#94** have no descriptions in the export, so the new-user and returning-user branches need the team's confirmation. Card **#95** says danger-zone checking is finished, while the card remains open; confirm its status and acceptance criteria.
+The detailed [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the reporting story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have no descriptions in the export, so those branches need the team's confirmation. The [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL) card says the feature is finished and mentions waiting for the server; confirm its status and acceptance criteria.
 
 ## Admin incident workflow
 
@@ -23,11 +23,11 @@ The board has titles for admin sign-in, incident overview, filtering, reading, r
 
 <img src="{{ '/assets/diagrams/session-security.svg' | relative_url }}" alt="Session security journey: check the token, redirect invalid sessions to sign-in, issue a new token after successful authentication, and handle logout or timeout" width="100%" />
 
-Trello card **#4** describes idle timeout, manual logout, sign-in after an expired or invalid token, re-authentication, and issuing a new token. It mentions considering a refresh-token strategy but does not define that behavior.
+The [Session security and token handling](https://trello.com/c/GcWRnXuO) card describes idle timeout, manual logout, sign-in after an expired or invalid token, re-authentication, and issuing a new token. It mentions considering a refresh-token strategy but does not define that behavior.
 
 ## User stories from Trello
 
-### Reporting a crime in progress — card #8
+### [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ)
 
 - As a signed-in user, I want to open the app quickly so that I can report a crime without delay.
 - As a user, I want to tap a clearly visible **+** button so that I can start a report in one action.
@@ -38,19 +38,19 @@ Trello card **#4** describes idle timeout, manual logout, sign-in after an expir
 
 ### Admin stories
 
-- **#5:** Admin signs into the dashboard.
-- **#13:** Admin views the incident overview.
-- **#12:** Admin filters incidents by type or area.
-- **#6:** Admin reads a submitted incident.
-- **#7:** Admin marks an incident as resolved.
-- **#107:** Admin views crime statistics and trends.
-- **#110:** Admin reviews the heat map.
-- **#115:** Admin creates a schedule and assigns officers to shifts. The card describes this as a Could-priority backlog item.
+- [Admin signs into the dashboard](https://trello.com/c/KPWIbi9v).
+- [Admin views the incident overview](https://trello.com/c/TinbDlTB).
+- [Admin filters incidents by type or area](https://trello.com/c/hU4uYAvk).
+- [Admin reads a submitted incident](https://trello.com/c/kFlbPVQe).
+- [Admin marks an incident as resolved](https://trello.com/c/mU8ohGsG).
+- [Admin views crime statistics and trends](https://trello.com/c/Wvz94T9B).
+- [Admin reviews the heat map](https://trello.com/c/vY4gCKeG).
+- [Admin creates a schedule](https://trello.com/c/zixpGjY1). The card describes this as a Could-priority backlog item.
 
-The new-user and returning-user cards (**#93** and **#94**) have titles but no story descriptions in the export. Confirm their story details with the team.
+The new-user and returning-user cards have titles but no story descriptions in the export. Confirm their story details with the team.
 
 ## Reflection
 
 Mapping the user stories helped me see how the citizen reporting flow and the admin incident workflow depend on one another. A report needs to be captured and sent with its location before an administrator can review and resolve it. The session-security flow also reminded me that reporting features need a clear sign-in and timeout path.
 
-The Trello cards do not all describe the same level of detail. Card #8 gives concrete reporting steps, while cards #93 and #94 have titles without story descriptions. Several admin cards also need acceptance criteria, and card #95 appears complete by its description while remaining open on the board. I learned that a diagram can make a proposed journey easier to discuss, but it cannot fill in requirements the team has not agreed on. I would next confirm the unclear cards with the team, write testable acceptance criteria, and update the diagrams to match those decisions. The numbered Trello screenshots provide board context for this reflection.
+The Trello cards do not all describe the same level of detail. The reporting card gives concrete steps, while the new-user and returning-user cards have titles without story descriptions. Several admin cards also need acceptance criteria, and the danger-zone card says the feature is finished while still appearing in a sprint list. I learned that a diagram can make a proposed journey easier to discuss, but it cannot fill in requirements the team has not agreed on. I would next confirm the unclear cards with the team, write testable acceptance criteria, and update the diagrams to match those decisions. The numbered Trello screenshots provide board context for this reflection.

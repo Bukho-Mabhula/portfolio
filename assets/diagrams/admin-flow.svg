@@ -14,7 +14,7 @@
   </defs>
   <rect class="bg" width="1600" height="1120" rx="28"/>
   <text class="title" x="800" y="48" text-anchor="middle">Admin incident workflow</text>
-  <text class="sub" x="800" y="76" text-anchor="middle">Pulse Guard dashboard · Trello stories #5, #6, #7, #12, #13, #107, #110, #115</text>
+  <text class="sub" x="800" y="76" text-anchor="middle">Pulse Guard admin stories from Trello</text>
 
   <path class="line" d="M560 152 V190"/>
   <path class="line" d="M560 270 V310"/>
@@ -36,29 +36,29 @@
   <rect class="start" x="420" y="82" width="280" height="70" rx="35"/>
   <text class="text white" x="560" y="125">Admin</text>
   <rect class="box" x="420" y="190" width="280" height="80" rx="18"/>
-  <text class="text" x="560" y="238">Sign in · Trello #5</text>
+  <text class="text" x="560" y="238">Admin sign in</text>
   <rect class="action" x="420" y="310" width="280" height="80" rx="18"/>
-  <text class="text" x="560" y="358">Incident overview · #13</text>
+  <text class="text" x="560" y="358">Incident overview</text>
 
   <polygon class="decision" points="700,445 880,505 700,565 520,505"/>
   <text class="text" x="700" y="500"><tspan x="700">Filter incidents</tspan><tspan x="700" dy="24">by type or area?</tspan></text>
   <rect class="box" x="60" y="620" width="380" height="90" rx="18"/>
-  <text class="text" x="250" y="658"><tspan x="250">Apply type or area filter</tspan><tspan class="small" x="250" dy="24">Trello #12</tspan></text>
+  <text class="text" x="250" y="658"><tspan x="250">Apply type or area filter</tspan><tspan class="small" x="250" dy="24">Filter card</tspan></text>
   <rect class="action" x="560" y="620" width="280" height="90" rx="18"/>
-  <text class="text" x="700" y="658"><tspan x="700">Read submitted</tspan><tspan x="700" dy="24">incident · #6</tspan></text>
+  <text class="text" x="700" y="658"><tspan x="700">Read submitted</tspan><tspan x="700" dy="24">incident</tspan></text>
 
   <polygon class="decision" points="700,760 880,820 700,880 520,820"/>
   <text class="text" x="700" y="815"><tspan x="700">Resolve this</tspan><tspan x="700" dy="24">incident?</tspan></text>
   <rect class="box" x="60" y="930" width="380" height="90" rx="18"/>
   <text class="text" x="250" y="968"><tspan x="250">Leave open and return</tspan><tspan x="250" dy="24">to overview</tspan></text>
   <rect class="start" x="860" y="930" width="280" height="90" rx="18"/>
-  <text class="text white" x="1000" y="968"><tspan x="1000">Mark incident</tspan><tspan x="1000" dy="24">resolved · #7</tspan></text>
+  <text class="text white" x="1000" y="968"><tspan x="1000">Mark incident</tspan><tspan x="1000" dy="24">resolved</tspan></text>
 
   <rect class="box" x="1090" y="220" width="450" height="100" rx="18"/>
-  <text class="text" x="1315" y="260"><tspan x="1315">View crime statistics</tspan><tspan class="small" x="1315" dy="24">Optional dashboard view · #107</tspan></text>
+  <text class="text" x="1315" y="260"><tspan x="1315">View crime statistics</tspan><tspan class="small" x="1315" dy="24">Optional dashboard view</tspan></text>
   <rect class="box" x="1090" y="360" width="450" height="100" rx="18"/>
-  <text class="text" x="1315" y="400"><tspan x="1315">Review heat map</tspan><tspan class="small" x="1315" dy="24">Optional dashboard view · #110</tspan></text>
+  <text class="text" x="1315" y="400"><tspan x="1315">Review heat map</tspan><tspan class="small" x="1315" dy="24">Optional dashboard view</tspan></text>
   <rect class="box" x="1090" y="500" width="450" height="100" rx="18"/>
-  <text class="text" x="1315" y="540"><tspan x="1315">Create officer schedule</tspan><tspan class="small" x="1315" dy="24">Could-priority backlog item · #115</tspan></text>
+  <text class="text" x="1315" y="540"><tspan x="1315">Create officer schedule</tspan><tspan class="small" x="1315" dy="24">Could-priority backlog item</tspan></text>
   </svg>
 </svg>

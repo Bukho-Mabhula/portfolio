@@ -15,6 +15,8 @@ permalink: /agile/evidence/
 
 The screenshots are arranged by their original file numbers. The sprint ranges overlap at the edges because each image captures the next horizontal section of the Trello board.
 
+The numbers in filenames such as `Screenshot (1192).png` identify the screenshot files; they are not Trello card IDs. Trello cards are linked by their titles in the user-stories page.
+
 ### 1. Screenshot (1192) — Sprints 6–11
 
 ![Screenshot 1192 showing the Pulse Guard Trello board from Sprint 6 through Sprint 11]({{ '/assets/screenshots/Screenshot%20%281192%29.png' | relative_url }})

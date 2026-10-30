@@ -9,7 +9,7 @@ These diagrams organize the stories recorded on the [Pulse Guard Trello board](h
 
 ## Citizen stories
 
-### Reporting a crime in progress — Trello card #8
+### [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ)
 
 - As a signed-in user, I want to open the app quickly so that I can report a crime without delay.
 - As a user, I want to tap a clearly visible **+** button so that I can start a report in one action.
@@ -20,8 +20,8 @@ These diagrams organize the stories recorded on the [Pulse Guard Trello board](h
 
 ### Other citizen cards
 
-- **#93 New user** and **#94 Returning user:** the export contains titles but no descriptions. Confirm the story details with the team.
-- **#95 Checking danger zones before leaving home:** the card says the feature is finished, but remains open on the board. Confirm its status and acceptance criteria.
+- [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK): the export contains titles but no descriptions. Confirm the story details with the team.
+- [Checking danger zones before leaving home](https://trello.com/c/vNznvXtL): the card says the feature is finished and mentions waiting for the server. Confirm its status and acceptance criteria.
 
 ## Citizen and admin journey
 
@@ -29,16 +29,16 @@ These diagrams organize the stories recorded on the [Pulse Guard Trello board](h
 flowchart TD
     subgraph Citizen[Citizen app]
         Start([Open Pulse Guard]) --> Registered{Registered before?}
-        Registered -->|No| NewUser[New-user flow<br/>Trello #93 - details to confirm]
-        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Trello #94 - details to confirm]
+        Registered -->|No| NewUser[New-user flow<br/>Details to confirm with team]
+        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Details to confirm with team]
         NewUser --> Home[Signed-in user]
         ReturningUser --> Home
         Home --> Safety{Check danger zones before leaving?}
-        Safety -->|Yes| DangerZones[Review danger zones<br/>Trello #95]
+        Safety -->|Yes| DangerZones[Review danger zones<br/>Danger-zone card]
         Safety -->|No| Crime{Crime in progress?}
         DangerZones --> Crime
         Crime -->|No| Home
-        Crime -->|Yes| StartReport[Tap the + button<br/>Trello #8]
+        Crime -->|Yes| StartReport[Tap the + button<br/>Reporting card]
         StartReport --> Capture[Start live video or audio]
         Capture --> Location[Capture GPS location]
         Location --> Send[Send recording and location to nearest police station or private security]
@@ -46,22 +46,22 @@ flowchart TD
     end
 
     subgraph Admin[Admin dashboard]
-        AdminStart([Admin]) --> AdminSignIn[Sign in<br/>Trello #5]
-        AdminSignIn --> Overview[View incident overview<br/>Trello #13]
+        AdminStart([Admin]) --> AdminSignIn[Sign in]
+        AdminSignIn --> Overview[View incident overview]
         Overview --> Filter{Filter incidents?}
-        Filter -->|Yes| ByTypeArea[Filter by type or area<br/>Trello #12]
-        Filter -->|No| ReadIncident[Read submitted incident<br/>Trello #6]
+        Filter -->|Yes| ByTypeArea[Filter by type or area]
+        Filter -->|No| ReadIncident[Read submitted incident]
         ByTypeArea --> ReadIncident
         ReadIncident --> Resolve{Mark as resolved?}
-        Resolve -->|Yes| Resolved[Mark incident resolved<br/>Trello #7]
+        Resolve -->|Yes| Resolved[Mark incident resolved]
         Resolve -->|No| Overview
-        Overview -. optional .-> Statistics[View crime statistics and trends<br/>Trello #107]
-        Overview -. optional .-> HeatMap[Review heat map<br/>Trello #110]
-        Overview -. optional .-> Schedule[Create officer schedule<br/>Trello #115]
+        Overview -. optional .-> Statistics[View crime statistics and trends]
+        Overview -. optional .-> HeatMap[Review heat map]
+        Overview -. optional .-> Schedule[Create officer schedule]
     end
 ```
 
-## Session security — Trello card #4
+## [Session security and token handling](https://trello.com/c/GcWRnXuO)
 
 The card describes idle timeout, manual logout, redirect after an expired or invalid token, re-authentication, and issuing a new token. It says to consider a refresh-token strategy but does not define that behavior.
 
@@ -85,15 +85,15 @@ flowchart TD
 
 The board includes these admin stories. The export has card titles, but no descriptions for these items; add acceptance criteria to the Trello cards to define the expected behavior.
 
-- **#5:** Admin signs into the dashboard.
-- **#13:** Admin views the incident overview.
-- **#12:** Admin filters incidents by type or area.
-- **#6:** Admin reads a submitted incident.
-- **#7:** Admin marks an incident as resolved.
-- **#107:** Admin views crime statistics and trends.
-- **#110:** Admin reviews the heat map.
-- **#115:** Admin creates a schedule and assigns officers to shifts. The card describes this as a Could-priority backlog item.
+- [Admin signs into the dashboard](https://trello.com/c/KPWIbi9v).
+- [Admin views the incident overview](https://trello.com/c/TinbDlTB).
+- [Admin filters incidents by type or area](https://trello.com/c/hU4uYAvk).
+- [Admin reads a submitted incident](https://trello.com/c/kFlbPVQe).
+- [Admin marks an incident as resolved](https://trello.com/c/mU8ohGsG).
+- [Admin views crime statistics and trends](https://trello.com/c/Wvz94T9B).
+- [Admin reviews the heat map](https://trello.com/c/vY4gCKeG).
+- [Admin creates a schedule](https://trello.com/c/zixpGjY1). The card describes this as a Could-priority backlog item.
 
 ## Reflection
 
-Write your own reflection about how the user stories informed design and development, what was unclear, and what you learned from mapping the citizen and admin journeys. Include screenshots of the Trello cards as evidence.
+Mapping these stories helped me understand how a citizen report moves into the admin workflow. Some Trello cards have only titles or brief descriptions, so the diagrams are discussion aids rather than final acceptance criteria. I would confirm the missing details with the team, write testable criteria, and update the flow after those decisions. The numbered Trello screenshots show where the cards sit across the board's sprint lists.

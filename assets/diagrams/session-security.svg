@@ -14,7 +14,7 @@
   </defs>
   <rect class="bg" width="1200" height="1060" rx="28"/>
   <text class="title" x="600" y="48" text-anchor="middle">Session security</text>
-  <text class="sub" x="600" y="76" text-anchor="middle">Trello card #4 · token expiry, re-authentication, and logout</text>
+  <text class="sub" x="600" y="76" text-anchor="middle">Session security, token expiry, re-authentication, and logout</text>
 
   <path class="line" d="M600 152 V200"/>
   <path class="line" d="M510 260 H270 V370"/>

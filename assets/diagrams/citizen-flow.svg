@@ -14,7 +14,7 @@
   </defs>
   <rect class="bg" width="1400" height="1780" rx="28"/>
   <text class="title" x="700" y="48" text-anchor="middle">Citizen safety and reporting journey</text>
-  <text class="sub" x="700" y="76" text-anchor="middle">Pulse Guard · Trello stories #8, #93, #94, #95</text>
+  <text class="sub" x="700" y="76" text-anchor="middle">Pulse Guard citizen stories</text>
 
   <path class="line" d="M700 152 V195"/>
   <path class="line" d="M520 255 H255 V390"/>
@@ -44,9 +44,9 @@
   <text class="text" x="700" y="250"><tspan x="700">New or returning</tspan><tspan x="700" dy="24">user?</tspan></text>
 
   <rect class="box" x="60" y="390" width="390" height="100" rx="18"/>
-  <text class="text" x="255" y="430"><tspan x="255">New-user flow</tspan><tspan class="small" x="255" dy="25">Trello #93 · details to confirm</tspan></text>
+  <text class="text" x="255" y="430"><tspan x="255">New-user flow</tspan><tspan class="small" x="255" dy="25">Details to confirm with team</tspan></text>
   <rect class="box" x="950" y="390" width="390" height="100" rx="18"/>
-  <text class="text" x="1145" y="430"><tspan x="1145">Returning-user flow</tspan><tspan class="small" x="1145" dy="25">Trello #94 · details to confirm</tspan></text>
+  <text class="text" x="1145" y="430"><tspan x="1145">Returning-user flow</tspan><tspan class="small" x="1145" dy="25">Details to confirm with team</tspan></text>
 
   <rect class="action" x="560" y="545" width="280" height="72" rx="18"/>
   <text class="text" x="700" y="589">Signed-in user</text>
@@ -55,14 +55,14 @@
   <text class="text" x="700" y="710"><tspan x="700">Check danger zones</tspan><tspan x="700" dy="24">before leaving?</tspan></text>
 
   <rect class="action" x="60" y="835" width="390" height="95" rx="18"/>
-  <text class="text" x="255" y="875"><tspan x="255">Review danger zones</tspan><tspan class="small" x="255" dy="24">Trello #95</tspan></text>
+  <text class="text" x="255" y="875"><tspan x="255">Review danger zones</tspan><tspan class="small" x="255" dy="24">Danger-zone card</tspan></text>
 
   <polygon class="decision" points="700,1025 880,1085 700,1145 520,1085"/>
   <text class="text" x="700" y="1080"><tspan x="700">Crime in</tspan><tspan x="700" dy="24">progress?</tspan></text>
   <rect class="box" x="60" y="1205" width="390" height="90" rx="18"/>
   <text class="text" x="255" y="1240"><tspan x="255">Continue using</tspan><tspan x="255" dy="24">the app</tspan></text>
   <rect class="action" x="950" y="1205" width="390" height="110" rx="18"/>
-  <text class="text" x="1145" y="1245"><tspan x="1145">Tap + and start live video</tspan><tspan x="1145" dy="25">or audio recording</tspan><tspan class="small" x="1145" dy="22">Trello #8</tspan></text>
+  <text class="text" x="1145" y="1245"><tspan x="1145">Tap + and start live video</tspan><tspan x="1145" dy="25">or audio recording</tspan><tspan class="small" x="1145" dy="22">Reporting card</tspan></text>
   <rect class="action" x="950" y="1360" width="390" height="85" rx="18"/>
   <text class="text" x="1145" y="1410">Capture GPS location</text>
   <rect class="action" x="950" y="1490" width="390" height="100" rx="18"/>

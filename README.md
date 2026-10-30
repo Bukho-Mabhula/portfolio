@@ -158,22 +158,22 @@ My portfolio was successfully published and is accessible online via GitHub Page
 
 ## Pulse Guard User Story Decision Diagram
 
-This diagram organizes the user flows on the [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). The citizen crime-reporting flow uses the detailed story in card #8. The new-user and returning-user cards (#93 and #94) have no descriptions in the board export, so those paths need confirmation by the team. Several admin cards have titles but no acceptance criteria in their descriptions.
+This diagram organizes user flows from the [Pulse Guard Trello board](https://trello.com/b/L3GWnqCP/pulse-guard-project). The [Reporting a crime in progress](https://trello.com/c/nJvVUjMJ) card contains the detailed citizen story. The [New user](https://trello.com/c/tjHW9g0N) and [Returning user](https://trello.com/c/59I7BAqK) cards have titles but no descriptions, so those paths need confirmation. Several admin cards also need agreed acceptance criteria.
 
 ```mermaid
 flowchart TD
     subgraph Citizen[Citizen app]
         Start([Open Pulse Guard]) --> Registered{Registered before?}
-        Registered -->|No| NewUser[New-user flow<br/>Trello #93 - details to confirm]
-        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Trello #94 - details to confirm]
+        Registered -->|No| NewUser[New-user flow<br/>Details to confirm with team]
+        Registered -->|Yes| ReturningUser[Returning-user flow<br/>Details to confirm with team]
         NewUser --> Home[Signed-in user]
         ReturningUser --> Home
         Home --> Safety{Check danger zones before leaving?}
-        Safety -->|Yes| DangerZones[Review danger zones<br/>Trello #95]
+        Safety -->|Yes| DangerZones[Review danger zones<br/>Danger-zone card]
         Safety -->|No| Crime{Crime in progress?}
         DangerZones --> Crime
         Crime -->|No| Home
-        Crime -->|Yes| StartReport[Tap the + button<br/>Trello #8]
+        Crime -->|Yes| StartReport[Tap the + button<br/>Reporting card]
         StartReport --> Capture[Start live video or audio]
         Capture --> Location[Capture GPS location]
         Location --> Send[Send recording and location to nearest police station or private security]
@@ -181,24 +181,24 @@ flowchart TD
     end
 
     subgraph Admin[Admin dashboard]
-        AdminStart([Admin]) --> AdminSignIn[Sign in<br/>Trello #5]
-        AdminSignIn --> Overview[View incident overview<br/>Trello #13]
+        AdminStart([Admin]) --> AdminSignIn[Sign in]
+        AdminSignIn --> Overview[View incident overview]
         Overview --> Filter{Filter incidents?}
-        Filter -->|Yes| ByTypeArea[Filter by type or area<br/>Trello #12]
-        Filter -->|No| ReadIncident[Read submitted incident<br/>Trello #6]
+        Filter -->|Yes| ByTypeArea[Filter by type or area]
+        Filter -->|No| ReadIncident[Read submitted incident]
         ByTypeArea --> ReadIncident
         ReadIncident --> Resolve{Mark as resolved?}
-        Resolve -->|Yes| Resolved[Mark incident resolved<br/>Trello #7]
+        Resolve -->|Yes| Resolved[Mark incident resolved]
         Resolve -->|No| Overview
-        Overview -. optional .-> Statistics[View crime statistics and trends<br/>Trello #107]
-        Overview -. optional .-> HeatMap[Review heat map<br/>Trello #110]
-        Overview -. optional .-> Schedule[Create officer schedule<br/>Trello #115]
+        Overview -. optional .-> Statistics[View crime statistics and trends]
+        Overview -. optional .-> HeatMap[Review heat map]
+        Overview -. optional .-> Schedule[Create officer schedule]
     end
 ```
 
-The diagram is a high-level map of the stories, not a complete task or acceptance-criteria diagram. The session-security story in card #4 is shown separately below. Cards #5, #6, #7, #12, #13, #93, #94, #107, and #110 have titles but no descriptions in the export; add the team's real acceptance criteria to those cards before treating the flows as final.
+The diagram is a high-level map of the stories, not a complete task or acceptance-criteria diagram. The [Session security and token handling](https://trello.com/c/GcWRnXuO) card is shown separately below. Some board cards have blank descriptions and others contain only brief notes; agree and record acceptance criteria before treating the flows as final.
 
-### Session security decision flow — Trello card #4
+### Session security decision flow
 
 ```mermaid
 flowchart TD
@@ -216,7 +216,7 @@ flowchart TD
     Expire --> SignIn
 ```
 
-This flow follows the requirements written in card #4: idle timeout, manual logout, redirect after an expired or invalid token, re-authentication, and issuing a new token. The board mentions considering a refresh-token strategy; it does not define that behavior, so it is not shown as implemented here. GitHub renders Mermaid diagrams in Markdown files; if this section is displayed on a separate GitHub Pages site, confirm that site's Mermaid support or include exported diagram images.
+This flow follows the requirements in the [Session security and token handling](https://trello.com/c/GcWRnXuO) card: idle timeout, manual logout, redirect after an expired or invalid token, re-authentication, and issuing a new token. The card mentions considering a refresh-token strategy but does not define that behavior, so it is not shown as implemented here. The SVG diagrams are displayed on the GitHub Pages user-stories page; this README keeps the editable Mermaid source.
 
 ---
 
